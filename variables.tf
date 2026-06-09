@@ -7,7 +7,7 @@ variable "location" {
 }
 
 variable "storage_account_name" {
-  default = "driftdemostg12345"
+  default = "driftelzstg12345"
 }
 
 variable "app_service_plan_name" {
@@ -15,5 +15,5 @@ variable "app_service_plan_name" {
 }
 
 variable "app_service_name" {
-  default = "drift-web-app-demo"
+  default = "driftelz-web-app"
 }
